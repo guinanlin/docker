@@ -1,4 +1,4 @@
-name: ci
+name: generate docker image
 on:
   workflow_dispatch: #github页面手动触发
   push:
