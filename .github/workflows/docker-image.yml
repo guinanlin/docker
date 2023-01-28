@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file /erpnext14/Dockerfile --tag erpnext-14:$(date +%s)
+      run: docker build . --file /erpnext14/Dockerfile --tag erpnext14:$(date +%s)
